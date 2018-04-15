@@ -31,7 +31,6 @@ public class DeletingLines {
         while ((strLine = br.readLine()) != null) {
             lines.add(strLine);
         }
-       // for (int i = startingLine; i < numberOfLines; i++) {
             lines.subList(startingLine, numberOfLines).clear();
             System.out.println(lines);
 
