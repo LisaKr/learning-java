@@ -37,7 +37,7 @@ public class CalorieCount {
                 Double carrotDiameter = Double.parseDouble(userInput.next());
                 munch.add(new Carrot(carrotLength, carrotDiameter));
             } else {
-                System.out.println("Ty rayon chasom ne poputal, malchik? Idi-ka otsyuda\n \n");
+                System.out.println("Error\n \n");
             }
         }
 
