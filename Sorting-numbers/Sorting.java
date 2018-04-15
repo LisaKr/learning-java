@@ -17,7 +17,7 @@ public class Sorting {
                 int newElement = Integer.parseInt(element); //convert this element to integer
                 tempNumbers.add(newElement);    //add it to a list for this line
             }
-            Collections.sort(tempNumbers); //omg cool
+            Collections.sort(tempNumbers); 
             finalNumbers.add(tempNumbers);
         }
         //sort list of strings by length AND by ascending order for every length
@@ -26,7 +26,6 @@ public class Sorting {
         writeOutput(finalNumbers);
     }
 
-    //my more complex comparator!
     public static int compareLists(ArrayList<Integer> a1, ArrayList<Integer> a2) {
         if (a1.size() < a2.size()) {
             return -1;
