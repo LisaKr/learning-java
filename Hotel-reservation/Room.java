@@ -10,7 +10,6 @@ public class Room {
         return name;
     }
 
-    //returns true if the comparison is true
     public boolean isFree() {
         return name == null;
     }
